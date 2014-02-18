@@ -18,6 +18,8 @@ UserSchema.plugin(uniqueid, {
 
 UserSchema.plugin(uuid.plugin, 'User');
 
+```
+
 ## Installation
 * `npm install mongoose-uuid --save`
 
