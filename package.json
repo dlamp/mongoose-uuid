@@ -1,0 +1,26 @@
+{
+  "name": "mongoose-uuid",
+  "version": "0.0.1",
+  "description": "mongoose-uuid is a plugin which adds uuid _id to a model",
+  "author": "Darin Lampson <dlampson@gmail.com>",
+  "main": "./lib/index",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/* -R spec"
+  },
+  "keywords": [
+    "mongoose",
+    "uuid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dlamp/mongoose-uuid.git"
+  },
+  "dependencies": {
+    "node-uuid": "~1.4.1"
+  },
+  "devDependencies": {
+    "mongoose": "3.8.*",
+    "mocha": "latest",
+    "should": "latest"
+  }
+}
