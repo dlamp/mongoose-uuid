@@ -1,6 +1,6 @@
 {
   "name": "mongoose-uuid",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "mongoose-uuid is a plugin which adds uuid _id to a model",
   "author": "Darin Lampson <dlampson@gmail.com>",
   "main": "./lib/index",
