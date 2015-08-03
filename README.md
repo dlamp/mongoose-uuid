@@ -12,11 +12,7 @@ var uuid = require('mongoose-uuid');
 
 var UserSchema = new Schema({}, {_id: false});
 
-UserSchema.plugin(uniqueid, {
-  models: ['users']
-});
-
-UserSchema.plugin(uuid.plugin, 'User');
+UserSchema.plugin(uuid);
 
 ```
 
